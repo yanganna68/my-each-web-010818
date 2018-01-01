@@ -3,8 +3,7 @@ def my_each(collection) # put argument(s) here
     result = []
     while i < collection.size
       result << collection[i]
+      i += 1
     end
-    i += 1
-  end
   result
 end
